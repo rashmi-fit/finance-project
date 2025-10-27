@@ -2,4 +2,12 @@
 
 This project is a spark project for the finance scenario
 
-I will keep adding as an when i move ahead.
+# Initialise your project
+```
+      git init
+      git add .(stage all the files)
+      git status
+      git commit -m "give message"
+      git push origin main
+      git status
+```
