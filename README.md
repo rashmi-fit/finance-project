@@ -11,3 +11,10 @@ This project is a spark project for the finance scenario
       git push origin main
       git status
 ```
+Delete a branch
+```
+      git branch -d
+```
+
+Note:
+      if you want to delete a branch x you should be in some other branch
