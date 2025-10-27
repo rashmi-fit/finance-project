@@ -43,7 +43,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "finance-analytics=finance_analytics:main",
+            "finance-analytics=python.finance_analytics:main",
         ],
     },
 )

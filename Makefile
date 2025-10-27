@@ -19,7 +19,7 @@ run:
 	python src/main/python/finance_analytics.py
 
 clean:
-	rm -rf __pycache__ .pytest_cache spark-warehouse metastore_db derby.log
+	rm -rf .pytest_cache spark-warehouse metastore_db derby.log
 	find . -type d -name "__pycache__" -exec rm -rf {} +
 	find . -type f -name "*.pyc" -delete
 	find . -type f -name "*.pyo" -delete
